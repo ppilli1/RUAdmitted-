@@ -12,6 +12,8 @@ import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import FAQ from "./scenes/faq";
 import Geography from "./scenes/geography";
+import ExampleTest from "./scenes/exampleTest"
+import Tester2 from "./scenes/tester2"
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Calendar from "./scenes/calendar/calendar";
@@ -40,6 +42,8 @@ function App() {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/geography" element={<Geography />} />
+              <Route path='/exampleTest' element={<ExampleTest/>}/>
+              <Route path='/tester2' element={<Tester2/>}/>
             </Routes>
           </main>
         </div>
